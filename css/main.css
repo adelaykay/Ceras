@@ -1,9 +1,27 @@
-body{
-    /* background-color: red; */
-}
-.headercolor{
-    background-color: rgba(86, 116, 89, 0.6);
+/* body{
+    background-color: red;
+} */
+.bg-teal{
+    background-color: rgba(6, 43, 11, 0.6);
 }
 .menubarcolor{
-    background-color: #EFEAD8;
+    color: rgb(239, 234, 216);
 }
+.menubarcolor:hover{
+    color: #8ABB00;
+}
+#navbarNav a:hover{
+    color: #8ABB00;
+}
+.text-shadow{
+    text-shadow: black 2px 5px 5px;
+}
+
+/* MEDIA QUERIES FOR MOBILE RESPONSIVENESS */
+
+@media only screen and (max-width: 600px) {
+    .abs-top{
+        position: relative;
+    }
+}
+
