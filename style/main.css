@@ -17,6 +17,10 @@
 .move-up{
     top: 50%;
 }
+.placeholder{
+    background-color: white;
+    height: 100px;
+}
 
 /* MEDIA QUERIES FOR MOBILE RESPONSIVENESS */
 
@@ -26,6 +30,9 @@
     }
     .move-up{
         top: 50vh;
+    }
+    .placeholder{
+        height: 0px;
     }
 }
 /* Clients Carousel */
