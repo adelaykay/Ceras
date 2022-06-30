@@ -13,6 +13,7 @@ let results = document.querySelectorAll('.results');
 let reload = document.querySelector('#reload');
 let problem = document.querySelectorAll('.problem');
 let solution = document.querySelector('.solution');
+
 //Limits user entry to less than 12 for
 //length and width in inches
 let temp1=0;
@@ -80,16 +81,13 @@ const resetResults = () => {
         e.style.display = "block";
     })
 }
-//listens for a click on the calculate button
-//and executes the calc function.
+//listens for a click on the calculate button and executes the calc function.
 "click ".split(" ").forEach(e => {
     calculate.addEventListener(e, calc);
 });
 
-//listens for a click on the reset button
-//and executes the resetUserInput function.
+//listens for a click on the reset button and executes the resetUserInput function.
 reset.addEventListener('click', resetUserInput);
 
-//listens for a click on the reload button
-//and executes the resetResults function.
+//listens for a click on the reload button and executes the resetResults function.
 reload.addEventListener('click', resetResults);
