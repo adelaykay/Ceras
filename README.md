@@ -1,2 +1,2 @@
-# Ceras
-Aptech E-Project
+# Ceras Tiles Project
+HTML, CSS, Bootstrap, JavaScript
